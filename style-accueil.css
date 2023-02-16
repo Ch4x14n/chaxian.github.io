@@ -5,7 +5,6 @@ body{
 
 #scroller-x {
     overflow-x: scroll;
-    scrollbar-color: rebeccapurple green;
 }
 
 #scroller-y {
