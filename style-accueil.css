@@ -107,7 +107,6 @@ h1{
     z-index: 0;
     position : relative;
     display: block;
-    width: 86%;
     height: 100px;
     margin : 20px 10% 0px 10%;
     background-color : wheat;
@@ -128,7 +127,6 @@ h1{
     z-index: 0;
     position : relative;
     display: block;
-    width: 86%;
     height: 100px;
     margin : 20px 10% 0px 10%;
     background-color : wheat;

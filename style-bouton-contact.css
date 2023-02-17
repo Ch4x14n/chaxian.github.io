@@ -1,0 +1,57 @@
+#contact-btn {
+    border: none;
+    border-radius: 30px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  #contact-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  #contact-btn span {
+    position: relative;
+    z-index: 1;
+  }
+  
+  #contact-btn:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  #contact-btn:hover:before {
+    width: 200px;
+    height: 200px;
+  }
+  
+  #contact-btn:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: #3498db;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  #contact-btn:hover:after {
+    width: 250px;
+    height: 250px;
+  }
