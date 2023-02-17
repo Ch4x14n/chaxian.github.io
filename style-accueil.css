@@ -31,9 +31,6 @@ body:-webkit-scrollbar{
 .main{
     z-index : 13;
     width : 100%;
-    border : 1px black;
-    overflow-x: scroll;
-    box-sizing: border-box;
     white-space: nowrap;
 }
 
