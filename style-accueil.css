@@ -35,6 +35,8 @@ h1{
 .main{  z-index : 13;
     width : 100%;
     white-space: nowrap;
+    position : relative;
+    margin-left: 100px;
 }
 
 .main::-webkit-scrollbar{
