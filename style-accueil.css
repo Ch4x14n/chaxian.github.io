@@ -82,7 +82,7 @@ h1{
     z-index : 1;
     position : relative ;
     margin-top : 68.5px;
-    width : auto;
+    width : 62,5%;
     height : 250px;
     border : 1px  black;
     overflow: hidden;
@@ -95,7 +95,7 @@ h1{
     z-index: 10;
     display : block;
     position : relative;
-    width: 350px;
+    width: auto;
     height: 125px;
     margin : 23px 25px 0px 23px;
     background-color:wheat;
@@ -107,9 +107,9 @@ h1{
     z-index: 0;
     position : relative;
     display: block;
-    width: 300px;
+    width: 86%;
     height: 100px;
-    margin : 20px 25px 0px 25px;
+    margin : 20px 10% 0px 10%;
     background-color : wheat;
     border : 1px solid gray;
     border-radius : 10px;
@@ -128,9 +128,9 @@ h1{
     z-index: 0;
     position : relative;
     display: block;
-    width: 300px;
+    width: 86%;
     height: 100px;
-    margin : 20px 25px 0px 25px;
+    margin : 20px 10% 0px 10%;
     background-color : wheat;
     border : 1px solid gray;
     border-radius : 10px;
