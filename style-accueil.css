@@ -32,7 +32,7 @@ h1{
     z-index: 12;
 }
 
-.main{  z-index : 13;
+.main{  z-index : 10;
     width : 100%;
     white-space: nowrap;
     position : relative;
@@ -47,10 +47,11 @@ h1{
     position : fixed 0 0 0 0 ;
     width : 75px;
     height : 150px;
-    background-color : darkslategrey;
+    background-color : rgb(161, 50, 50);
     transition-property: all;
     transition-duration: 250ms;
-    z-index: 10;
+    z-index: 13;
+    margin-right : 25px;
 }
 
 .left-nav:hover{
