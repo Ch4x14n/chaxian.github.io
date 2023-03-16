@@ -157,6 +157,27 @@ h1{
     transition-delay:1s;
 }
 
+.projet{
+    z-index: 0;
+    position : relative;
+    display: block;
+    height: 100px;
+    margin : 20px 10% 0px 10%;
+    background-color : wheat;
+    border : 1px solid gray;
+    border-radius : 10px;
+}
+
+.projet:-webkit-scrollbar {
+    display: 1;
+}
+
+.projet:hover{
+    background: linear-gradient(45deg, rgb(178, 93, 14), rgb(60, 83, 99));
+    transition-delay:1s;
+}
+
+
 .wrapper {
     display: flex;
     justify-content: center;
