@@ -156,3 +156,83 @@ h1{
     background: linear-gradient(45deg, rgb(178, 93, 14), rgb(60, 83, 99));
     transition-delay:1s;
 }
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.button {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+  
+.button:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);  
+}
+  
+.sub-buttons {
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+  
+.button:hover .sub-buttons {
+    opacity: 1;
+    visibility: visible;
+}
+  
+.sub-buttons a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+  
+.sub-buttons a:hover {
+    transform: scale(1.2);
+}
+  
+.sub-buttons a:nth-child(1) {
+    transform: translate(-75px, 0);
+}
+  
+.sub-buttons a:nth-child(2) {
+    transform: translate(-53px, -53px);
+}
+  
+.sub-buttons a:nth-child(3) {
+    transform: translate(0, -75px);
+}
+  
+.sub-buttons a:nth-child(4) {
+    transform: translate(53px, -53px);
+}
+  
+.sub-buttons a i {
+    font-size: 24px;
+}
