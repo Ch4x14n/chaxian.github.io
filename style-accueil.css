@@ -11,6 +11,11 @@ body:-webkit-scrollbar{
 
 h1{
     text-align: center;
+    z-index: 1;
+}
+
+#MissionItalyBG{
+    background-image: url('./BG Italy.jpg');
 }
 
 #scroller-x {
