@@ -16,6 +16,7 @@ h1{
 
 #MissionItalyBG{
     background-image: url('./BG Italy.jpg');
+    background-size: cover;
 }
 
 #scroller-x {
