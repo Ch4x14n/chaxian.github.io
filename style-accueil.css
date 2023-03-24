@@ -14,6 +14,11 @@ h1{
     z-index: 1;
 }
 
+#SManif{
+    background-image: url('./BG\ Manif.jpg') ;
+    background-size: cover;
+}
+
 #MissionItalyBG{
     background-image: url('./BG Italy.jpg');
     background-size: cover;
