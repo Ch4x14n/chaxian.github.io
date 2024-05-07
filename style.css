@@ -2,6 +2,7 @@ body{
     background-color: 11111e;
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
 .top_bar{
@@ -16,7 +17,8 @@ body{
     position : absolute;
     z-index: 10;
     margin: 75 0 0 50;
-    width: auto;
+    height: 195px;
+    width: 195px;
     background-color: #11111e;
     display: inline-block;
     border: 5px ;
@@ -26,15 +28,16 @@ body{
 .PP_top{
     position : absolute;
     display: inline-block;
-    margin: 15 0 0 15;
 
-    height: 90%;
-    width: 90%;
+    margin :10px;
+
+    height: 175px;
+    width: 175px;
     background-color: beige;
     
     border: 5px ;
     border-radius: 50%;
-    
+
     z-index: 10;
 }
 
@@ -48,7 +51,7 @@ body{
     background-color: burlywood;
     margin : 150 0 0 125;
     
-    height: 95%;
+    height: calc(100% - 150px);
     width: 60%;
     
     border-radius: 10px;
@@ -61,7 +64,7 @@ body{
     display:inline-block;
     margin: 150 0 0 68%;
     
-    height: 94%;
+    height: calc(100% - 160px);
     width: 31%;
     
     background-color: black;
@@ -98,4 +101,15 @@ body{
     color: #fff;
     width: calc(100% - 40px);
     outline: none;
+}
+
+.project{
+    background-color: blanchedalmond;
+    height: 100px;
+    width: 75px;
+}
+
+.projet h1{
+    color : whitesmoke;
+
 }
