@@ -1,12 +1,10 @@
 body{
     background-color: #11111e;
-    height: 100%;
-    width: 100%;
-    z-index: 0;
 }
 
 h1{
-    position:absolute;
+    position:relative;
+    text-align: center;
     margin: 50% 50% 50% 50%;
     color : white;
 }
