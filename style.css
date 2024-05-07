@@ -1,5 +1,12 @@
 body{
-    background: 11111e;
+    background-color: #11111e;
     height: 100%;
     width: 100%;
+    z-index: 0;
+}
+
+h1{
+    position:absolute;
+    margin: 50%;
+    color : white;
 }
