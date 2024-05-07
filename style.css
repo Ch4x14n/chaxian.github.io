@@ -1,0 +1,101 @@
+body{
+    background-color: 11111e;
+    height: 100%;
+    width: 100%;
+}
+
+.top_bar{
+    position :absolute;
+
+    display: inline-block;
+    
+    z-index: 1;
+}
+
+.PP{
+    position : absolute;
+    z-index: 10;
+    margin: 75 0 0 50;
+    width: auto;
+    background-color: #11111e;
+    display: inline-block;
+    border: 5px ;
+    border-radius: 50%;
+}
+
+.PP_top{
+    position : absolute;
+    display: inline-block;
+    margin: 15 0 0 15;
+
+    height: 90%;
+    width: 90%;
+    background-color: beige;
+    
+    border: 5px ;
+    border-radius: 50%;
+    
+    z-index: 10;
+}
+
+#Classic_PP{
+    background-image: url('./srcs/PP_nate.png');
+    background-size: cover;
+}
+
+.main{
+    position : absolute;
+    background-color: burlywood;
+    margin : 150 0 0 125;
+    
+    height: 95%;
+    width: 60%;
+    
+    border-radius: 10px;
+
+    z-index: 9;
+}
+
+#terminal{
+    position: absolute;
+    display:inline-block;
+    margin: 150 0 0 68%;
+    
+    height: 94%;
+    width: 31%;
+    
+    background-color: black;
+
+    border : solid white 5px;
+
+    overflow: hidden;
+
+    z-index: 9;
+}
+
+.prompt {
+    color: #0f0;
+}
+
+.input-line {
+    display: flex;
+    flex-direction: column;
+    align-items: flex;
+}
+
+.prompt-text {
+    margin-right: 5px;
+}
+
+.arrow {
+    color: #0f0;
+    margin-right: 5px;
+}
+
+.input {
+    background: transparent;
+    border: none;
+    color: #fff;
+    width: calc(100% - 40px);
+    outline: none;
+}
