@@ -7,6 +7,6 @@ body{
 
 h1{
     position:absolute;
-    margin: 50%;
+    margin: 50% 50% 50% 50%;
     color : white;
 }
