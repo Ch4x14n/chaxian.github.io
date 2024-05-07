@@ -3,8 +3,10 @@ body{
 }
 
 h1{
-    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin: 50% 50% 50% 50%;
+    min-height: 100vh;
     color : white;
 }
