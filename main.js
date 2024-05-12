@@ -78,3 +78,8 @@ window.addEventListener('load', function() {
     var width = PP.offsetWidth;
     PP.style.height = width + 'px';
 });
+
+function ch_zoom() {
+    document.body.style.zoom = "100%";
+    setTimeout(ch_zoom, 100);
+}
